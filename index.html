@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Art Gallery</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Art Gallery</h1>
+    </header>
+    <main id="gallery">
+        <!-- Art pieces will be dynamically inserted here -->
+    </main>
+
+    <!-- Modal -->
+    <div id="artModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2 id="artTitle"></h2>
+            <p id="artDescription"></p>
+            <p><strong>Artist:</strong> <span id="artArtist"></span></p>
+            <p><strong>Date:</strong> <span id="artDate"></span></p>
+        </div>
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
